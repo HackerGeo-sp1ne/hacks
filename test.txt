@@ -1,6 +1,6 @@
 Add-Type -AssemblyName System.Windows.Forms
 $o=New-Object -ComObject WScript.Shell
-$url = -join($channel,"?sub_confirmation=1")
+$url = -join("https://www.youtube.com/@deepmemories","?sub_confirmation=1")
 Start-Process "$url" 
 Start-Sleep -Seconds 5
 [System.Windows.Forms.SendKeys]::SendWait('{TAB}'*2)
