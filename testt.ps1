@@ -6,4 +6,3 @@ Start-Sleep -Seconds 5
 [System.Windows.Forms.SendKeys]::SendWait('{TAB}'*2)
 [System.Windows.Forms.SendKeys]::SendWait('{ENTER}')
 Start-Sleep -Seconds 1
-[System.Windows.Forms.SendKeys]::SendWait('%{F4}')
